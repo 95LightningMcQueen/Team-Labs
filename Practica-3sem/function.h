@@ -1,4 +1,6 @@
-#pragma once
+#ifndef FUNCTION_H
+#define FUNCTION_H
+
 #include <iostream>
 #include <fstream>
 
@@ -82,3 +84,5 @@ void MakeTxtForAvg(std::ifstream&, std::ofstream&);
 void MakeTxtForExcellent(std::ifstream&, std::ofstream&);//14
 void PrintConsoleForExcellent(std::ifstream&);
 int32_t InputGroup();
+
+#endif
